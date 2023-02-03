@@ -7,3 +7,4 @@
 [2023-02-03 11:58:38,451] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
+172.17.0.1 - - [03/Feb/2023 11:58:38] "POST /predict HTTP/1.1" 200 -
