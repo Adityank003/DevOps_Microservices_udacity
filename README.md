@@ -45,6 +45,23 @@ source .devops/bin/activate
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
+Create an account at hub.docker.com 
+Install the latest version of docker, you can verify that you’ve successfully installed docker by printing its version in your terminal: docker --version
+
 * Setup and Configure Kubernetes locally
+Install Virtualbox and minikube to run Kubernetes locally 
+brew cask install virtualbox
+brew cask install minikube
+Then you can start local cluster using command minikube start
+
 * Create Flask app in Container
+Create a working directory
+Copy source code to working directory
+Install packages from requirements.txt
+Expose port 80
+Run app.py at container launch
+
 * Run via kubectl
+Use kubectl get pods to see status of the pods
+And kubectl logs ml-api to see logs
+kubectl delete ml-api to delete the pod
